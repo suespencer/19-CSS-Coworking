@@ -1,52 +1,104 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #282828 ;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
 }
 
-
 header {
-    margin: 0;
-    background-color: #282828;
-    color: whitesmoke;
+  margin: 0;
+  background-color: #282828;
+  color: whitesmoke;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin: 0;
-    padding: 25px;
-    gap: 10px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 25px;
+  gap: 10px;
+}
+
+.align-right {
+  margin-left: auto;
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-
 .logo {
-color: whitesmoke;
-font-size: 18px;
-font-weight: 700;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .icon {
-    width: 25px;
+  width: 25px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 400;
-    margin: 30px 25px;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
 }
 
 .caption {
-    margin: 0 25px;
+  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+
+
 }
 
 .item-img {
-    width: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  display: block;
+
 }
 
+.item {
+  position: relative;
+}
+
+.img-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight:700;
+    cursor: pointer;
+    height: 50px;
+    align-self: center;
+     
+}
+
+.chatbox-bg {
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    position: fixed;
+    bottom: 6px;
+    right:6px;
+}
+
+.chatbox-img {
+    width: 50%;
+    margin: auto;
+}
